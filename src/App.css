@@ -1,0 +1,85 @@
+.App {
+    text-align: center;
+    margin-top: 10vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    min-height: 80vh;
+    background-image: repeating-linear-gradient( 90deg, hsla(69, 0%, 61%, 0.05) 0px, hsla(69, 0%, 61%, 0.05) 1px, transparent 1px, transparent 104px), repeating-linear-gradient( 0deg, hsla(69, 0%, 61%, 0.05) 0px, hsla(69, 0%, 61%, 0.05) 1px, transparent 1px, transparent 104px), repeating-linear-gradient( 0deg, hsla(69, 0%, 61%, 0.08) 0px, hsla(69, 0%, 61%, 0.08) 1px, transparent 1px, transparent 13px), repeating-linear-gradient( 90deg, hsla(69, 0%, 61%, 0.08) 0px, hsla(69, 0%, 61%, 0.08) 1px, transparent 1px, transparent 13px), linear-gradient(45deg, rgb(4, 4, 4), rgb(79, 79, 79));
+    /* background-image: radial-gradient( circle at 4% 15%, #eee 0%, #eee 1.5%, transparent calc(1.5% + 1px), transparent 100%), radial-gradient( circle at 4% 50%, #eee 0%, #eee 1.5%, transparent calc(1.5% + 1px), transparent 100%), radial-gradient( circle at 4% 85%, #eee 0%, #eee 1.5%, transparent calc(1.5% + 1px), transparent 100%), linear-gradient( 90deg, transparent 0%, transparent 10%, #db676c 10%, #db676c calc(10% + 2px), transparent calc(10% + 2px), transparent 100%), linear-gradient(180deg, white 12%, transparent 12%), repeating-linear-gradient( 180deg, #91c1e1 0px, #91c1e1 1px, transparent 1px, transparent 30px), linear-gradient(white, white); */
+    color: white;
+}
+
+h2 {
+    color: gold;
+}
+
+.inputElements {
+    padding-top: 50px;
+}
+
+.input {
+    padding-top: 5vh;
+}
+
+.cont {
+    display: flex;
+}
+
+.show {
+    width: 50%;
+}
+
+.loading {
+    color: greenyellow;
+}
+
+.outputElem {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    margin: 5px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
